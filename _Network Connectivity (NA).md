@@ -1546,6 +1546,7 @@ conf t
 ~~~
 !@R4
 conf t
+ no router ospf 1
  router ospf 1
   router-id 4.4.4.4
   network 4.4.4.4 0.0.0.0 area 0
